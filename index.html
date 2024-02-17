@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+
+<!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!-- css -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"> </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey, I'm </h3>
+            <h1>Aryan Anand</h1>
+            <p>I'm a student of IIIT Allahabad. I'm in my third year of engineering.</p>
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/aryans02/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/aryyyaann/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/aryananand10/" target="_blank"><i class='bx bxl-linkedin' ></i> </a>
+                <a href="https://github.com/aryans08" target="_blank"> <i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="Aryan_Anand_CV.pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Software Engineer</h3>
+                </div>
+                <div class="profession" style="--i:1">
+                    <i class='bx bx-laptop' ></i>
+                    <h3>. Developer</h3>
+                </div>
+                <div class="profession" style="--i:2">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Backend</h3>
+                </div>
+                <div class="profession" style="--i:3">
+                    <i class='bx bx-laptop' ></i>
+                    <h3>Frontend</h3>
+                </div>
+                
+                <div class="circle"> </div>
+            </div>
+
+                <div class="overlay"> </div>
+        </div>
+        <div class="home-img">
+            <img src="image1.png" alt="404">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.png" alt="">
+        </div>
+    
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hello there! 👋 I'm Aryan Anand</h3>
+        <p>A dedicated software and web developer passionate about crafting innovative digital solutions. Proficient in C/C++, HTML/CSS, JavaScript, and Python, with experience in MongoDB and MySQL, I thrive on building user-friendly web apps and scalable software systems.</p>
+        <p class="additional-content" style="display: none;"> Beyond coding, I'm deeply passionate about sports, particularly football, aquatics, and athletics. I've represented my school in the 2019 National CBSE Cluster in aquatics and serve as Sports Secretary at my college, showcasing my commitment and leadership skills. In any field, I tackle challenges with enthusiasm, always striving for excellence. Let's connect at iec2021045@iiita.ac.in and explore exciting opportunities together!</p>
+        <a href="#" class="btn read-more">Read More</a>
+    </div>
+</section>
+
+<!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Customized Solutions to Fit Your Needs</h3>
+                <p>Tailored web and software solutions ensuring seamless user experience and alignment with client goals and requirements.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-glasses-alt'></i>
+                <h3>Comprehensive Full-Stack Development Services</h3>
+                <p>Proficient in front-end and back-end technologies, building dynamic web applications with robust functionality and performance.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-sketch'></i>
+                <h3>Dedicated Support and Collaboration Beyond Project Delivery</h3>
+                <p>Providing continuous support, maintenance, and collaboration to ensure the long-term success of clients' digital solutions.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading"> Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+<!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- custom js -->
+    <script src="script.js"></script>
+</body>
+</html>
